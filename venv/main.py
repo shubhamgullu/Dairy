@@ -1,9 +1,19 @@
-from ./Controller.Test import TestVlaue
+from Controllers.Test import TestVlaue
+
+from Controllers.DBConnection import DatabaseConnection
+
+
+database=DatabaseConnection()
+
+
+database.Connection()
 
 
 
 
 
-value=TestVlaue()
+# Create option to show values///
 
-value.hello()
+
+
+#
